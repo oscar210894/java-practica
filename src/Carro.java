@@ -10,6 +10,18 @@ public class Carro  {
         this.ano = ano;
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
     public void mostrarInfo() {
         System.out.println(marca + ", " + modelo + ", " + "Año: " + ano);
     }
